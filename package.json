@@ -1,6 +1,6 @@
 {
   "name": "promptus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library to create simple, interactive CLI prompts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
