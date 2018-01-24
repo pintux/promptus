@@ -2,7 +2,7 @@
 
 A simple library to build a simple interactive CLI.
 
-[![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square&colorB=CC0000)](https://www.npmjs.com/package/promptus)
+[![NPM](https://nodei.co/npm/promptus.png)](https://nodei.co/npm/promptus/)
 
 Quick start:
 
