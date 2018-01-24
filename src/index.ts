@@ -1,6 +1,6 @@
 import * as readline from 'readline';
 
-export function runInteractive({ promptSymbol = '> ', startPrompt = "Hello, I'm Promptus :)", handler = async (input) => {console.log(input+'\n'); return;} }) {
+export function runInteractive({ promptSymbol = '> ', startPrompt = "Hello, I'm Promptus :)", handler = async (input) => {console.log(input+'\n'); return;} } = {}): void {
   const prompt = () => {    
     promptus.prompt();
   };

@@ -1,6 +1,6 @@
 {
   "name": "promptus",
-  "version": "1.0.0-development",
+  "version": "1.0.0",
   "description": "A simple library to create simple, interactive CLI prompts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -34,10 +34,10 @@
   "author": "Antonio Pintus <pintus@gmail.com> (https://www.pintux.it)",
   "license": "MIT",
   "devDependencies": {
-    "@types/chai": "^4.1.1",
+    "@types/chai": "^4.1.2",
     "@types/chai-as-promised": "7.1.0",
     "@types/chai-spies": "0.0.0",
-    "@types/mocha": "^2.2.46",
+    "@types/mocha": "^2.2.47",
     "@types/node": "^9.3.0",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",

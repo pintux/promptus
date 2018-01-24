@@ -27,7 +27,7 @@ promptus.runInteractive({handler: scream});
 
 - `promptSymbol` - string, the CLI prompt to show to the user, default is: `>`;
 - `startPrompt` - string, start message to how to the user, default is aìa Promptus welcome message;
-- `handler` - async function returning a Promise, with the following signature `async (input) => doSomething();...`, it receives the trimmed user input. Use it to write your application domain-related code.
+- `handler` - async function returning a Promise, with the following signature `async (input): Promise`, it receives the trimmed user input and it should write the response to stdout. Inside this function write your application domain-related code.
 
 ---
 
